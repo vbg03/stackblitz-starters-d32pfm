@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Barlow Condensed, sans-serif;
+  padding: 0;
+  background-color: #e3c1e0;
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  background: #cd31a6;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ffffff;
+}
+
+.nombre {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.usuario {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+header .social-icons a {
+  margin: 0 10px;
+}
+
+header .social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+nav.barrita {
+  background-color: #a3428b;
+  padding: 10px 0;
+  border-bottom: 50%;
+}
+
+nav.barrita ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav.barrita ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav.barrita ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.central-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color: #f588e2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.sobre-mi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-img {
+  width: 250px;
+  border-radius: 15%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.proyecto {
+  margin-bottom: 20px;
+}
+
+.proyecto h3 {
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+
+.enlace {
+  font-style: italic;
+  color: #ffffff;
+}
+
+footer {
+  background: #cd31a6;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ffffff;
+}
+
+footer p {
+  margin: 0;
+}
